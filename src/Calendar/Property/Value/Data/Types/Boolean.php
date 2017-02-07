@@ -27,8 +27,6 @@ namespace Ipunkt\Calendar\Property\Value\Data\Types;
  * has a BOOLEAN value type:
  *
  * TRUE
- *
- * @package Mitarbeiterbereich\Calendar\Property\Value\Data\Types
  */
 class Boolean extends BaseType
 {

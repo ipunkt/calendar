@@ -29,8 +29,6 @@ namespace Ipunkt\Calendar\Property\Value\Data\Types;
  * Example:
  *
  * mailto:jane_doe@example.com
- *
- * @package Mitarbeiterbereich\Calendar\Property\Value\Data\Types
  */
 class CalendarUserAddress extends Uri
 {

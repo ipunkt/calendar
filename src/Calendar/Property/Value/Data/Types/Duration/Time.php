@@ -37,15 +37,15 @@ class Time extends BaseType
     {
         $key = null;
         switch (get_class($value)) {
-            case 'Mitarbeiterbereich\Calendar\Property\Value\Data\Types\Duration\Hour':
+            case Hour::class:
                 $key = 'dur-hour';
                 break;
 
-            case 'Mitarbeiterbereich\Calendar\Property\Value\Data\Types\Duration\Minute':
+            case Minute::class:
                 $key = 'dur-minute';
                 break;
 
-            case 'Mitarbeiterbereich\Calendar\Property\Value\Data\Types\Duration\Second':
+            case Second::class:
                 $key = 'dur-second';
                 break;
         }
